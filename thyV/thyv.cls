@@ -20,6 +20,24 @@
 
 \RequirePackage{xstring}
 
+\RequirePackage[%
+    linewidth = 1pt,
+    middlelinecolor = black,
+    middlelinewidth = 1pt,
+    roundcorner = 1pt,
+    topline = false,
+    rightline = false,
+    bottomline = false,
+    leftline = true,
+    rightmargin = 0pt,
+    skipabove = 0pt,
+    skipbelow = 0pt,
+    innerleftmargin = 1cm,
+    innerrightmargin = 0pt,
+    innertopmargin = 0pt,
+    innerbottommargin = 0pt,
+]{mdframed}
+
 \renewcommand{\familydefault}{\sfdefault}    
 
 %\pagestyle{empty}			% no header, footer
