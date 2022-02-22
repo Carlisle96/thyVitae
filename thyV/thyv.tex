@@ -1,36 +1,22 @@
 \documentclass[11pt]{thyv}
 
 \usepackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
 \usepackage{xcolor}
 \usepackage{tikz}
-
-
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{marvosym}
+\usepackage{relsize}
+\usepackage{doi}
+\usepackage{url}
+\usepackage{hyperref}
 
 \begin{document}
-
-    
-   
-    
 
 	\begin{tikzpicture}[remember picture,overlay]
    		\node [rectangle, anchor=north, minimum width=6cm, minimum height=\paperheight+1cm] (box) at (-5cm,1.5cm){};
 	\end{tikzpicture}
-
-\begin{mdframed}
-\section{Dolore ut ea est.}
-Irure est dolor ullamco sint reprehenderit sed occaecat ex velit deserunt aliquip nulla qui exercitation amet laborum reprehenderit cupidatat commodo fugiat et ut aliquip sit in quis dolore dolore quis sit dolor id in elit adipisicing dolor officia anim anim officia adipisicing reprehenderit consequat aliquip amet sit in labore eiusmod excepteur occaecat deserunt mollit enim aliqua quis culpa culpa veniam id dolor pariatur exercitation nulla commodo aliqua et aute qui reprehenderit irure excepteur veniam enim id aliquip excepteur fugiat ut velit anim irure voluptate adipisicing consequat elit occaecat in in in dolor est eu exercitation labore duis sunt adipisicing aliquip cupidatat sunt ea aliquip in mollit amet consequat adipisicing dolor enim officia sit aliquip pariatur est ea \\ \\ 
-
-
-\paragraph{labore} reprehenderit ut in consequat ut sit cillum cupidatat eu reprehenderit ex ad nisi dolore non est nostrud incididunt quis laborum tempor fugiat ut aliqua occaecat reprehenderit sit ut consequat esse et adipisicing laborum eiusmod fugiat in aute esse qui tempor nostrud est in id \\ enim veniam aute aliqua dolore ex non nostrud dolor sed nostrud adipisicing reprehenderit sit veniam sit ut sint aute qui sint esse veniam duis id magna dolore irure minim consequat ullamco amet reprehenderit enim cillum in ea magna cupidatat quis eiusmod deserunt enim ad ut ullamco enim consequat sint adipisicing labore exercitation sed pariatur consectetur dolor laborum exercitation reprehenderit.
-
-
-\paragraph{labore} reprehenderit ut in consequat ut sit cillum cupidatat eu reprehenderit ex ad nisi dolore non est nostrud incididunt quis laborum tempor fugiat ut aliqua occaecat reprehenderit sit ut consequat esse et adipisicing laborum eiusmod fugiat in aute esse qui tempor nostrud est in id \\ enim veniam aute aliqua dolore ex non nostrud dolor sed nostrud adipisicing reprehenderit sit veniam sit ut sint aute qui sint esse veniam duis id magna dolore irure minim consequat ullamco amet reprehenderit enim cillum in ea magna cupidatat quis eiusmod deserunt enim ad ut ullamco enim consequat sint adipisicing labore exercitation sed pariatur consectetur dolor laborum exercitation reprehenderit.
-
-\paragraph{labore} reprehenderit ut in consequat ut sit cillum cupidatat eu reprehenderit ex ad nisi dolore non est nostrud incididunt quis laborum tempor fugiat ut aliqua occaecat reprehenderit sit ut consequat esse et adipisicing laborum eiusmod fugiat in aute esse qui tempor nostrud est in id \\ enim veniam aute aliqua dolore ex non nostrud dolor sed nostrud adipisicing reprehenderit sit veniam sit ut sint aute qui sint esse veniam duis ore ex non nostrud dolor sed nostrud adipisicing reprehenderit sit veniam sit ut sint aute qui sint esse veniam ullamco amet reprehenderit enim cillum in ea magna cupidatat quis eiusmod deserunt enim.
-
-		\hfill\includegraphics[width=100pt]{signature2.png}
-\end{mdframed}
-
 
 	%------------------------------------------------
 
@@ -41,7 +27,7 @@ Irure est dolor ullamco sint reprehenderit sed occaecat ex velit deserunt aliqui
 		
 			\begin{center}
 				\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-					\clip (600/2, 600/2) circle (600/2);
+					\clip (300, 300) circle (300);
 					\draw[line width=2pt] (300, 300) circle (300);
 					\node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {
 						\includegraphics[width=\imagewidth]{max0.3.png}
@@ -53,11 +39,11 @@ Irure est dolor ullamco sint reprehenderit sed occaecat ex velit deserunt aliqui
 		%------------------------------------------------
 
 
-		{\Huge M. J. Luckow}
+		{\Large Max-Jonathan Luckow}
 
 		%------------------------------------------------
 
-		{\Large M.Sc. Student}
+		{Computer Science Student}
 
 		\strut
 
@@ -65,25 +51,129 @@ Irure est dolor ullamco sint reprehenderit sed occaecat ex velit deserunt aliqui
 		\thyVent{high-school\\ diploma} 				{6/2010}
 		\thyVent{Publication} 							{1/2020}
 		\thyVent{B.Sc.\\Thesis} 						{3/2017}
-		\thyVent{M.Sc.\\Thesis} 						{3/2023}
+		\thyVent{\\ M.Sc.Thesis} 						{3/2023}
 		
 		\thyVentEdu{Energy and\\Process Engineering} 	{4/2011}{9/2013} 	{}
-		\thyVentEdu{B.Sc. Computer \\Science} 			{10/2013}{3/2017} 	{16.625/2014}
-		\thyVentEdu{M.Sc. Computer \\Science} 			{4/2017}{3/2023} 	{7.25/2020}
+		\thyVentEdu{Bachelor of Science \\Computer Science} 			{10/2013}{3/2017} 	{}%16.625/2014} 
+		\thyVentEdu{Master of Science \\ Computer Science} 			{4/2017}{3/2023} 	{7.25/2020}
 
 		\thyVentWork{Technical\\Accountant} 			{9/2020}{4/2022} 	{}
 		\thyVentWork{Web Developer} 					{3/2018}{4/2018} 	{}
 		\thyVentWork{Technical Specialist} 				{6/2017}{11/2017} 	{9.25/2017}
-		\thyVentWork{Self-employed} 					{1/2014}{5/2017} 	{22.875/2014}
+		%\thyVentWork{Self-employed} 					{1/2014}{5/2017} 	{22.875/2014}
 
 		\thyVentWork{Assistant in \\ surgical ward} 	{8/2010}{1/2011} 	{12.25/2010}
 	\end{thyV}
 
 	\end{textblock}
 
+	\begin{mdframed}
+
+		\begin{minipage}[t]{0.50\textwidth} % 27.5% of the page width for the first row of icons
+			\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+			\icon{MapMarker}{12}{Berlin, Germany}\\
+			\icon{Phone}{12}{+49 163 222 99 64}\\
+				
+		\end{minipage}
+		\begin{minipage}[t]{0.50\textwidth} 
+			\vspace{-\baselineskip} % Required for vertically aligning minipages
+			
+			\icon{At}{12}{\href{mailto:max@luckow.ch}{max@luckow.ch}}\\
+			\icon{Github}{12}{\href{https://github.com/Carlisle96}{github.com/Carlisle96}}\\
+		\end{minipage}
 
 
-		
+		\section{Publication}
+			M. J. Luckow and T. Fluschnik. \textbf{``\href{https://doi.org/10.1016/j.ipl.2019.105913}{On the Computational Complexity of Length- and Neighborhood-Constrained Path Problems}''}. In: \textit{Information Processing Letters.} Vol. 156 (2020). %\texttt{\doi{10.1016/j.ipl.2019.105913}}
+
+		\section{Work Experience}
+
+			\textbf{Technical Acountant} at \textbf{Agilo-Services GmbH}				\hfill \textbf{09/2020 - Present}
+				\begin{loneinnerlist}
+					\item Analysis, optimization, automation and supervision of the accounting system
+				\end{loneinnerlist}
+
+			\bigskip
+			\textbf{Web Developer} at \textbf{Trado GmbH}								\hfill \textbf{03/2018 - 04/2018}
+				\begin{loneinnerlist}
+					\item Programming and maintenance of the internal administrative software
+				\end{loneinnerlist}
+
+			\bigskip
+			\textbf{Technical Specialist} at \textbf{Envion AG} 						\hfill \textbf{06/2017 - 11/2017}
+			    \begin{loneinnerlist}
+			    	\item Analysis of Cryptocurrency market
+			    	\item Devolopment of the first mining operations prototype
+			    	\item Supervision of the production of the first large scale mining operation
+			    \end{loneinnerlist}
+
+			\bigskip
+			\textbf{Self-employed} 														\hfill \textbf{01/2014 - 05/2017}
+			    \begin{loneinnerlist}
+			    	\item IT administration, development and project support
+			    \end{loneinnerlist}
+
+		\section{Education}
+
+			\textbf{Technical University of Berlin}
+
+			\begin{outerlist}
+				\item[] Master of Science. \textit{Computer Science} 					\hfill \textbf{04/2017 - \textit{03/2023}}
+				        \begin{innerlist}
+				        	\item Specialisation in: Cognitive Systems
+				        \end{innerlist}
+
+				\item[] Bachelor of Science. \textit{Computer Science} 					\hfill \textbf{10/2013 - 03/2017}
+				        \begin{innerlist}
+				        \item Thesis: Algorithms and Complexity 						\hfill ( Grade 2.0 ) \\
+				        Advisor: Prof. Dr. Rolf Niedermeier
+				        \item Degree: Bachelor of Science 								\hfill ( Grade 2.8 ) \\
+				        Area of Study: Foundations of Computing
+				        \end{innerlist}
+
+				\item[] Bachelor of Science. \textit{Energy and Process Engineering} 	\hfill \textbf{04/2011 - 09/2013}
+			\end{outerlist}
+
+			\bigskip
+			\textbf{Arndt Gynasium Dahlem} 												\hfill \textbf{08/2003 - 06/2010}
+			    \begin{outerlist}
+			    	\item[] Degree: high-school diploma 								\hfill ( Grade 2.1 )
+			    \end{outerlist}
+
+		\section{Social Experience}
+
+			\textbf{Hospital Waldfriede Berlin} 										\hfill \textbf{08/2010 - 01/2011}
+			    \begin{outerlist}
+			    	\item[] Community service in the surgial ward
+			    \end{outerlist}
+
+		\section{Technical Expertise}
+
+			%\begin{multicols}{2}
+			C/\Cplusplus, Java, Python \hfill \ThreeOfFour \\
+			Latex \hfill \ThreeOfFour \\
+			Haskell \hfill \OneOfFour \\
+			Linux \hfill \TwoOfFour \\
+			Solidity \hfill \TwoOfFour \\
+			Javascript, Vue.js, Node.js, SQL \hfill \TwoOfFour \\
+			%\vfill\null
+			%\columnbreak
+			Datev Uno \hfill \FourOfFour
+
+
+			%\end{multicols}
+
+		\section{Language Expertise}
+			German \hfill Naitive speaker \\
+			English \hfill Advanced \\
+			Latin \hfill Latinum
+
+
+		\hfill\includegraphics[width=100pt]{signature2.png}
+	\end{mdframed}
+
+
 
 
 \end{document}

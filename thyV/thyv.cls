@@ -19,6 +19,11 @@
 \RequirePackage{wrapfig}
 
 \RequirePackage{xstring}
+\RequirePackage{doi}
+\RequirePackage{url}
+
+\RequirePackage[shortlabels]{enumitem}
+
 
 \RequirePackage[%
     linewidth = 1pt,
@@ -40,7 +45,7 @@
 
 \renewcommand{\familydefault}{\sfdefault}    
 
-%\pagestyle{empty}			% no header, footer
+\pagestyle{empty}			% no header, footer
 \setlength{\parindent}{0pt}	% no paragraph indentation
 
 \geometry{top=1cm, bottom=1cm, left=6cm, right=1cm}
@@ -53,20 +58,16 @@
 
 \definecolor{thyWhite}{RGB}{255,255,255}
 \definecolor{thyBlack}{RGB}{0,0,0}
-\definecolor{thyGrey}{RGB}{160,160,160}
+\definecolor{thyGrey}{RGB}{100,100,100}
 
 \definecolor{thySidebar}{RGB}{230,230,230}
 
 \pagecolor{thyWhite}
 \definecolor{firstcol}{rgb}{132,70,132}
 \definecolor{thirdcol}{rgb}{70,70,132}
-\definecolor{textcol}{rgb}{0,0,0}
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR DEFINITIONS
 %----------------------------------------------------------------------------------------
-
-\setlength{\TPHorizModule}{1cm} % Left margin
-\setlength{\TPVertModule}{1cm} % Top margin
 
 \newlength\imagewidth
 \newlength\imagescale
@@ -108,7 +109,6 @@
             (\catDistance, \startX)
                 rectangle
             (\catDistance-0.2,\endX);
-
     }
 
     % 1 :: date
@@ -122,9 +122,9 @@
         \let\startX\pgfmathresult
 
         \ifthenelse{\equal{##4}{}}{
-            \def\boxContent{\textFormat\textcolor{textcol}{##2}}
+            \def\boxContent{\textFormat\textcolor{thyBlack}{##2}}
         }{
-            \def\boxContent{\textFormat\textcolor{thyGrey}{##4} \textcolor{textcol}{##2}}
+            \def\boxContent{\textFormat\textcolor{thyGrey}{##4} \textcolor{thyBlack}{##2}}
         }
 
         \draw[draw=##3, line width=1.5pt] (0, \startX) -- (0.5,\startX);
@@ -157,7 +157,6 @@
         \thyDrawEvent{\positionDate}{##1}{thySecond}{}
     }
 
-
     % 1 :: name of event
     % 2 :: date 1
     % 3 :: date 2
@@ -186,6 +185,7 @@
         \thyDrawEvent{##2}{##1}{thyThird}{##2}
     }
 
+% draw timeline
 \begin{tikzpicture}
         \newcounter{yearcount}
         \setcounter{yearcount}{1}
@@ -199,22 +199,158 @@
         \pgfmathparse{(2023)}
         \let\enddate\pgfmathresult
 
-        \draw[draw=textcol, line width=2pt] (0,0.25*\yearlength) -- (0,\todayX);
-        \draw[draw=textcol, dashed, line width=2pt] (0,\todayX) -- (0,#3-0.25*\yearlength);
+        % main timeline
+        \draw[draw=thyBlack, line width=2pt] (0,0.25*\yearlength) -- (0,\todayX);
+        \draw[draw=thyBlack, dashed, line width=2pt] (0,\todayX) -- (0,#3-0.25*\yearlength);
 
-        \draw[draw=textcol, line width=2pt] (0,0.25*\yearlength) -- (-1,0.25*\yearlength);
-        \draw[draw=textcol, dashed, line width=2pt] (0,#3-0.25*\yearlength) -- (-1,#3-0.25*\yearlength);
+        % big start and end indicator
+        \draw[draw=thyBlack, line width=2pt] (0,0.25*\yearlength) -- (-1,0.25*\yearlength);
+        \draw[draw=thyBlack, dashed, line width=2pt] (0,#3-0.25*\yearlength) -- (-1,#3-0.25*\yearlength);
 
+        % small new-year indicators
         \whiledo{\value{yearcount} < \fullrange}{
-            \draw[draw=textcol, line width=1pt] 
+            \draw[draw=thyBlack, line width=1pt] 
                 (0,\yearlength*\value{yearcount}) -- 
                 (0.2,\yearlength*\value{yearcount});
             \stepcounter{yearcount}
         }
 
-        \node[label=\textcolor{textcol}{\textbf{#1}}] at (-0.6,0.25*\yearlength-0.1) {};
-        \node[label=\textcolor{textcol}{\textbf{\enddate}}] at (-0.6,#3-0.75*\yearlength) {};
-
+        % year text
+        \node[label=\textcolor{thyBlack}{\textbf{#1}}] at (-0.6,0.25*\yearlength-0.1) {};
+        \node[label=\textcolor{thyBlack}{\textbf{\enddate}}] at (-0.6,#3-0.75*\yearlength) {};
 }{
     \end{tikzpicture}
 }
+
+%----------------------------------------------------------------------------------------
+%   FONTS
+%----------------------------------------------------------------------------------------
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
+%\usepackage[default]{raleway}
+%\usepackage[defaultsans]{droidsans}
+%\usepackage{cmbright}
+%\usepackage{fetamont}
+%\usepackage[default]{gillius}
+%\usepackage{roboto}
+
+\renewcommand*\familydefault{\sfdefault} % Force the sans-serif version of any font used
+
+%------------------------------------------------
+
+\usepackage{fontawesome} % Required for FontAwesome icons
+
+% 1 :: FontAwesome icon name
+% 2 :: box size
+% 3 :: text
+\newcommand{\icon}[3]{
+    \makebox(#2, #2){\textcolor{thyBlack}{\large\csname fa#1\endcsname}}
+    %\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, text=thyBlack] (char) {#1};
+    \hspace{0.2cm}
+    \textcolor{thyBlack}{#3}
+}
+
+
+
+%------------------------------------------------
+
+
+
+
+\providecommand*\emaillink[1]{\nolinkurl{#1}}
+\providecommand*\email[1]{\href{mailto:#1}{\emaillink{#1}}}
+
+
+% Command for printing the contact information icons
+%\newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, text=thyBlack] (char) {#1};}}
+
+
+
+
+
+
+
+
+
+%%% LISTS
+
+% This macro alters a list by removing some of the space that follows the list
+% (is used by lists below)
+\newcommand*\fixendlist[1]{%
+    \expandafter\let\csname preFixEndListend#1\expandafter\endcsname\csname end#1\endcsname
+    \expandafter\def\csname end#1\endcsname{\csname preFixEndListend#1\endcsname\vspace{-0.6\baselineskip}}}
+
+% These macros help ensure that items in outer-type lists do not get
+% separated from the next line by a page break
+% (they are used by lists below)
+\let\originalItem\item
+\newcommand*\fixouterlist[1]{%
+    \expandafter\let\csname preFixOuterList#1\expandafter\endcsname\csname #1\endcsname
+    \expandafter\def\csname #1\endcsname{\let\oldItem\item\def\item{\pagebreak[2]\oldItem}\csname preFixOuterList#1\endcsname}
+    \expandafter\let\csname preFixOuterListend#1\expandafter\endcsname\csname end#1\endcsname
+    \expandafter\def\csname end#1\endcsname{\let\item\oldItem\csname preFixOuterListend#1\endcsname}}
+\newcommand*\fixinnerlist[1]{%
+    \expandafter\let\csname preFixInnerList#1\expandafter\endcsname\csname #1\endcsname
+    \expandafter\def\csname #1\endcsname{\let\oldItem\item\let\item\originalItem\csname preFixInnerList#1\endcsname}
+    \expandafter\let\csname preFixInnerListend#1\expandafter\endcsname\csname end#1\endcsname
+    \expandafter\def\csname end#1\endcsname{\csname preFixInnerListend#1\endcsname\let\item\oldItem}}
+
+% An itemize-style list with lots of space between items
+%
+% Usage:
+%   \begin{outerlist}
+%       \item ...    % (or \item[] for no bullet)
+%   \end{outerlist}
+\newlist{outerlist}{itemize}{3}
+    \setlist[outerlist]{label=\enskip\textbullet,leftmargin=*}
+    \fixendlist{outerlist}
+    \fixouterlist{outerlist}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+%
+% Usage:
+%   \begin{lonelist}
+%       \item ...    % (or \item[] for no bullet)
+%   \end{lonelist}
+\newlist{lonelist}{itemize}{3}
+    \setlist[lonelist]{label=\enskip\textbullet,leftmargin=*,partopsep=0pt,topsep=0pt}
+    \fixendlist{lonelist}
+    \fixouterlist{lonelist}
+
+% An itemize-style list with little space between items
+%
+% Usage:
+%   \begin{innerlist}
+%       \item ...    % (or \item[] for no bullet)
+%   \end{innerlist}
+\newlist{innerlist}{itemize}{3}
+    \setlist[innerlist]{label=\enskip\textbullet,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt}
+    \fixinnerlist{innerlist}
+
+% An environment IDENTICAL to innerlist that has better pre-list spacing
+% when used as the first thing in a \section
+%
+% Usage:
+%   \begin{loneinnerlist}
+%       \item ...    % (or \item[] for no bullet)
+%   \end{loneinnerlist}
+\newlist{loneinnerlist}{itemize}{3}
+    \setlist[loneinnerlist]{label=\enskip\textbullet,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt}
+    \fixendlist{loneinnerlist}
+    \fixinnerlist{loneinnerlist}
+
+\newcommand{\cvskill}[2]{%
+\textcolor{black}{\textbf{#1}}\hfill
+\foreach \x in {1,...,5}{%
+  \space{\ifnumgreater{\x}{#2}{\color{body!30}}{\color{accent}}\faCircle}}\par%
+}
+\def\Cplusplus{C\raisebox{0.5ex}{\tiny\textbf{++}}}
+\newcommand\scalemath[2]{\scalebox{#1}{\mbox{\ensuremath{\displaystyle #2}}}}
+
+\def\OneOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\circ}\mskip\medmuskip{\circ}\mskip\medmuskip{\circ}}$}
+\def\TwoOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\circ}\mskip\medmuskip{\circ}}$}
+\def\ThreeOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\circ}}$}
+\def\FourOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\bullet}}$}
