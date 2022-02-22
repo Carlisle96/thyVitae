@@ -753,11 +753,11 @@ INPUT signature2.png
 INPUT ./signature2.png
 OUTPUT /home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.pdf
 INPUT ./signature2.png
-INPUT ./max4.jpeg
-INPUT ./max4.jpeg
-INPUT max4.jpeg
-INPUT ./max4.jpeg
-INPUT ./max4.jpeg
+INPUT ./max0.3.png
+INPUT ./max0.3.png
+INPUT max0.3.png
+INPUT ./max0.3.png
+INPUT ./max0.3.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss2488.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss1000.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm

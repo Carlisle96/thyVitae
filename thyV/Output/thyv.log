@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  21 FEB 2022 20:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  22 FEB 2022 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,11 +715,11 @@ File: signature2.png Graphic file (type png)
 <use signature2.png>
 Package pdftex.def Info: signature2.png  used on input line 31.
 (pdftex.def)             Requested size: 100.0pt x 53.41599pt.
-<max4.jpeg, id=6, 108.405pt x 108.405pt>
-File: max4.jpeg Graphic file (type jpg)
-<use max4.jpeg>
-Package pdftex.def Info: max4.jpeg  used on input line 46.
-(pdftex.def)             Requested size: 142.26378pt x 142.28119pt.
+<max0.3.png, id=6, 361.35pt x 361.35pt>
+File: max0.3.png Graphic file (type png)
+<use max0.3.png>
+Package pdftex.def Info: max0.3.png  used on input line 47.
+(pdftex.def)             Requested size: 142.26378pt x 142.26578pt.
 \c@yearcount=\count296
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
@@ -748,45 +748,45 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 64.
+(Font)              <12> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 64.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 64.
+(Font)              <6> on input line 65.
 
-Overfull \hbox (3.86707pt too wide) in paragraph at lines 79--80
+Overfull \hbox (3.86707pt too wide) in paragraph at lines 80--81
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./signature2.png> <./max4.
-jpeg>] (/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./signature2.png> <./max0.
+3.png>] (/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.aux) ) 
 Here is how much of TeX's memory you used:
- 16962 strings out of 481126
- 353610 string characters out of 5911896
- 679165 words of memory out of 5000000
+ 16961 strings out of 481126
+ 353612 string characters out of 5911896
+ 679469 words of memory out of 5000000
  33570 multiletter control sequences out of 15000+600000
  411535 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  128i,7n,130p,853b,751s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/
-thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </h
-ome/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1728.600pk>
- </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss2488.60
-0pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx120
-0.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-s1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecsx1728.600pk>
+ </home
+/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </
+home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1728.600pk
+> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss2488.6
+00pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx12
+00.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+ss1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecsx1728.600pk>
 Output written on /home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.pdf 
-(1 page, 121946 bytes).
+(1 page, 1771839 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
+ 145 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)

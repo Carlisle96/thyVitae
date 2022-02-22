@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1645473307 "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/thyv.tex" "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.pdf" "thyv" 1645473308
+["pdflatex"] 1645528029 "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/thyv.tex" "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.pdf" "thyv" 1645528030
   "/etc/texmf/web2c/texmf.cnf" 1627701402 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk" 1629110313 19908 cc84bcdc20050a05d8485c2d69e47517 ""
   "/home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk" 1645380091 23664 370b1f92e20d50b201b8c47950f313bc ""
@@ -7,8 +7,8 @@
   "/home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss2488.600pk" 1645380090 54616 80a26b4eba47fa77e826940c4028c4be ""
   "/home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk" 1643897008 27316 51b02b1fb9639ab20c708fa3225e1bb2 ""
   "/home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1728.600pk" 1645380093 42260 6ad03ca8d47e0a836e6f57abb26ae72e ""
-  "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.aux" 1645473308 459 ccc40a77612dd921c2599e5d66e43def ""
-  "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/thyv.tex" 1645473307 4700 a99b67e6db4403ef757671d45e80f1a0 ""
+  "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.aux" 1645528030 459 ccc40a77612dd921c2599e5d66e43def ""
+  "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/thyv.tex" 1645528028 4753 d72a34d5ed0bdb1e4e0c43343322ba26 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss1000.tfm" 1136768653 3584 ab55608ad377891510479d34d90acc46 ""
@@ -158,14 +158,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1643896482 4856461 2634dfe2d424d3ea54699338aba5944c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1639607538 1651740 9c47502372d2321a07a5db1bde258988 ""
-  "Output/thyv.aux" 1645473308 459 ccc40a77612dd921c2599e5d66e43def "pdflatex"
-  "max4.jpeg" 1645023576 60907 cefccad0d175c5f22821c6033602657b ""
+  "Output/thyv.aux" 1645528030 459 ccc40a77612dd921c2599e5d66e43def "pdflatex"
+  "max0.3.png" 1645527808 1391538 899e0be6897e9fdc7a4727e242666409 ""
   "signature2.png" 1626557431 33643 2b826c442805b18a5f0ed022ef8430a1 ""
   "thyv.cls" 1645469528 6318 25705170d57fae5f57ddf906da6239c3 ""
-  "thyv.tex" 1645473307 4700 a99b67e6db4403ef757671d45e80f1a0 ""
+  "thyv.tex" 1645528028 4753 d72a34d5ed0bdb1e4e0c43343322ba26 ""
   (generated)
-  "Output/thyv.aux"
   "Output/thyv.pdf"
-  "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.log"
+  "Output/thyv.aux"
   "Output/thyv.log"
   "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.pdf"
+  "/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.log"
