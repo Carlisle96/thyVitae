@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  20 FEB 2022 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  22 FEB 2022 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/thyriaen/Workspace/LaTex/thyv/tl/timeline3.tex
-(/home/thyriaen/Workspace/LaTex/thyv/tl/timeline3.tex
+**/home/thyriaen/Workspace/LaTex/thyVitae/tl/timeline3.tex
+(/home/thyriaen/Workspace/LaTex/thyVitae/tl/timeline3.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03> (/usr/share/texlive/texmf
 -dist/tex/latex/base/article.cls
@@ -599,7 +599,7 @@ since the offensive shrinkability has been made finite.
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box83
-) (/home/thyriaen/Workspace/LaTex/thyv/tl/Output/timeline3.aux)
+) (/home/thyriaen/Workspace/LaTex/thyVitae/tl/Output/timeline3.aux)
 \openout1 = `timeline3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 180.
@@ -853,7 +853,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-(/home/thyriaen/Workspace/LaTex/thyv/tl/Output/timeline3.aux) )
+(/home/thyriaen/Workspace/LaTex/thyVitae/tl/Output/timeline3.aux) )
 (\end occurred inside a group at level 4)
 
 ### semi simple group (level 4) entered at line 182 (\begingroup)
@@ -863,16 +863,16 @@ or  <return>  to continue without it.
 ### bottom level 
 Here is how much of TeX's memory you used:
  15516 strings out of 481126
- 326387 string characters out of 5911896
+ 326427 string characters out of 5911896
  615389 words of memory out of 5000000
  32194 multiletter control sequences out of 15000+600000
  408486 words of font info for 39 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 87i,6n,89p,541b,834s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,6n,89p,545b,834s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/ecss1095.600pk>
-Output written on /home/thyriaen/Workspace/LaTex/thyv/tl/Output/timeline3.pdf (
-1 page, 1545 bytes).
+Output written on /home/thyriaen/Workspace/LaTex/thyVitae/tl/Output/timeline3.p
+df (1 page, 1545 bytes).
 PDF statistics:
  16 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream

@@ -1,10 +1,10 @@
-PWD /home/thyriaen/Documents/cv
+PWD /home/thyriaen/Workspace/LaTex/thyVitae
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/thyriaen/Documents/cv/infocv.tex
-OUTPUT /home/thyriaen/Documents/cv/Output/infocv.log
+INPUT /home/thyriaen/Workspace/LaTex/thyVitae/infocv.tex
+OUTPUT /home/thyriaen/Workspace/LaTex/thyVitae/Output/infocv.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -556,10 +556,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /home/thyriaen/Documents/cv/Output/infocv.aux
-INPUT /home/thyriaen/Documents/cv/Output/infocv.aux
-INPUT /home/thyriaen/Documents/cv/Output/infocv.aux
-OUTPUT /home/thyriaen/Documents/cv/Output/infocv.aux
+INPUT /home/thyriaen/Workspace/LaTex/thyVitae/Output/infocv.aux
+INPUT /home/thyriaen/Workspace/LaTex/thyVitae/Output/infocv.aux
+INPUT /home/thyriaen/Workspace/LaTex/thyVitae/Output/infocv.aux
+OUTPUT /home/thyriaen/Workspace/LaTex/thyVitae/Output/infocv.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
@@ -590,7 +590,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Regular-
 INPUT ./icons/map-marker.png
 INPUT icons/map-marker.png
 INPUT ./icons/map-marker.png
-OUTPUT /home/thyriaen/Documents/cv/Output/infocv.pdf
+OUTPUT /home/thyriaen/Workspace/LaTex/thyVitae/Output/infocv.pdf
 INPUT ./icons/map-marker.png
 INPUT ./icons/mobile-phone.png
 INPUT icons/mobile-phone.png
@@ -646,7 +646,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/impallari/raleway/Raleway-Bold-tlf-
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Bold-tlf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/impallari/raleway/Raleway-Bold-tlf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Bold-tlf-t1--base.tfm
-INPUT /home/thyriaen/Documents/cv/Output/infocv.aux
+INPUT /home/thyriaen/Workspace/LaTex/thyVitae/Output/infocv.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb

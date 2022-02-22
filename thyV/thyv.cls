@@ -21,6 +21,15 @@
 \RequirePackage{xstring}
 \RequirePackage{doi}
 \RequirePackage{url}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{breaklinks,colorlinks,
+            %linkcolor=black,urlcolor=black,
+            %anchorcolor=black,citecolor=black,
+            linkcolor=thyFirst,urlcolor=thyFirst,
+            anchorcolor=thyFirst,citecolor=thyFirst,
+            %draft
+            }
+
 
 \RequirePackage[shortlabels]{enumitem}
 
@@ -222,6 +231,10 @@
     \end{tikzpicture}
 }
 
+    % 1: text
+    % 2: width
+    % 3: color
+    \newcommand{\thyLegend}[3]{\parbox{#2}{\textcolor{#3}{\rule{#2}{3pt}}\\#1}}
 %----------------------------------------------------------------------------------------
 %   FONTS
 %----------------------------------------------------------------------------------------

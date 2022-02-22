@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  22 FEB 2022 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  22 FEB 2022 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -572,7 +572,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip54
-)) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+))
+Package hyperref Info: Option `breaklinks' set `true' on input line 31.
+Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip55
 \enit@outerparindent=\dimen272
@@ -856,7 +859,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring ON on input line 15.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -874,10 +877,10 @@ Workspace/LaTex/thyVitae/thyV/Output/thyv.out)
 \@outlinefile=\write4
 \openout4 = `thyv.out'.
 
-<max0.3.png, id=31, 361.35pt x 361.35pt>
-File: max0.3.png Graphic file (type png)
-<use max0.3.png>
-Package pdftex.def Info: max0.3.png  used on input line 33.
+<max0.6.png, id=31, 361.35pt x 361.35pt>
+File: max0.6.png Graphic file (type png)
+<use max0.6.png>
+Package pdftex.def Info: max0.6.png  used on input line 33.
 (pdftex.def)             Requested size: 142.26378pt x 142.26578pt.
 
 Overfull \hbox (9.03253pt too wide) in paragraph at lines 42--43
@@ -921,54 +924,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
+
+Overfull \hbox (1.17493pt too wide) in paragraph at lines 68--68
+\T1/cmss/m/n/12 Experience 
+ []
+
+
+Overfull \hbox (1.06612pt too wide) in paragraph at lines 68--68
+\T1/cmss/m/n/12 Events 
+ []
+
+
+Overfull \hbox (37.60596pt too wide) in paragraph at lines 73--77
+[][] 
+ []
+
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 75.
+ut line 85.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 82.
+ut line 92.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 
-Overfull \hbox (2.61049pt too wide) in paragraph at lines 72--85
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 82--95
 [][] [] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-94.
+104.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 <signature2.png, id=36, 689.57625pt x 368.37625pt>
 File: signature2.png Graphic file (type png)
 <use signature2.png>
-Package pdftex.def Info: signature2.png  used on input line 173.
+Package pdftex.def Info: signature2.png  used on input line 183.
 (pdftex.def)             Requested size: 100.0pt x 53.41599pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./max0.3.png>] [2 <./signa
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./max0.6.png>] [2 <./signa
 ture2.png>] (/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.aux)
 Package rerunfilecheck Info: File `thyv.out' has not changed.
 (rerunfilecheck)             Checksum: 42FC3621B599885DB9DD9C616EC1B46F;299.
  ) 
 Here is how much of TeX's memory you used:
- 23194 strings out of 481126
- 444505 string characters out of 5911896
- 808385 words of memory out of 5000000
- 39666 multiletter control sequences out of 15000+600000
+ 23196 strings out of 481126
+ 444529 string characters out of 5911896
+ 810884 words of memory out of 5000000
+ 39668 multiletter control sequences out of 15000+600000
  416380 words of font info for 53 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 128i,7n,130p,492b,766s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,8n,130p,492b,766s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.
 600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1
 000.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
@@ -984,7 +1002,7 @@ vips/fontawesome/fontawesometwo.enc}</usr/share/texlive/texmf-dist/fonts/type1/
 public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
 Output written on /home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.pdf 
-(2 pages, 1831708 bytes).
+(2 pages, 1963019 bytes).
 PDF statistics:
  331 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream
