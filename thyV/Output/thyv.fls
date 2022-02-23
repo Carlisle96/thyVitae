@@ -1168,9 +1168,9 @@ INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.aux
 INPUT /home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.out
 INPUT /home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.out
-INPUT /home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk
 INPUT /home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk
 INPUT /home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1728.600pk
+INPUT /home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk
 INPUT /home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecso1200.600pk
 INPUT /home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1200.600pk
 INPUT /home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1200.600pk

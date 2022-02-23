@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  23 FEB 2022 09:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  23 FEB 2022 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,15 +1001,15 @@ Package rerunfilecheck Info: File `thyv.out' has not changed.
 Here is how much of TeX's memory you used:
  24963 strings out of 481126
  493130 string characters out of 5911896
- 846360 words of memory out of 5000000
+ 846370 words of memory out of 5000000
  41427 multiletter control sequences out of 15000+600000
  416599 words of font info for 54 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  128i,8n,130p,492b,766s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.
+ </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.
 600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1
-000.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-css1728.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
+728.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+csx0600.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
 ec/ecso1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
 pen/ec/tcss1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecsi1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfo
@@ -1023,7 +1023,7 @@ some5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.pdf 
-(2 pages, 1968459 bytes).
+(2 pages, 1968282 bytes).
 PDF statistics:
  331 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream

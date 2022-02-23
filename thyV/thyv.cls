@@ -271,9 +271,10 @@
         {\Large\scshape\raggedright}
         {}{0cm} % prefix
         {}      % insert code before header
-        [\titlerule]
-
-
+        %[\titlerule]
+    %\titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
+    %<left> increases the left margin; <before-sep> controls the vertical space before the title; <after-sep> controls the vertical space after the title. 
+    \titlespacing{\section}{0pt}{0pt}{0pt}
 
 
 %%% LISTS
