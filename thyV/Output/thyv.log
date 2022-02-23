@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  22 FEB 2022 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  23 FEB 2022 09:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -439,6 +439,17 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count277
 \calc@Cskip=\skip51
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box82
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen264
+\ttl@minus=\dimen265
+\ttl@toksa=\toks30
+\titlewidth=\dimen266
+\titlewidthlast=\dimen267
+\titlewidthfirst=\dimen268
 ) (/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -449,19 +460,19 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
-\col@sep=\dimen264
-\ar@mcellbox=\box82
-\extrarowheight=\dimen265
-\NC@list=\toks30
-\extratabsurround=\skip52
-\backup@length=\skip53
-\ar@cellbox=\box83
+\col@sep=\dimen269
+\ar@mcellbox=\box83
+\extrarowheight=\dimen270
+\NC@list=\toks31
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box84
 ) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen266
-\WF@size=\dimen267
+\wrapoverhang=\dimen271
+\WF@size=\dimen272
 \c@WF@wrappedlines=\count278
-\WF@box=\box84
-\WF@everypar=\toks31
+\WF@box=\box85
+\WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
 ) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/te
 xlive/texmf-dist/tex/generic/xstring/xstring.tex
@@ -499,7 +510,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen268
+\@linkdim=\dimen273
 \Hy@linkcounter=\count281
 \Hy@pagecounter=\count282
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -525,7 +536,7 @@ Package hyperref Info: Bookmarks ON on input line 4717.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen269
+\XeTeXLinkMargin=\dimen274
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
@@ -533,8 +544,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count285
-\Field@Width=\dimen270
-\Fld@charsize=\dimen271
+\Field@Width=\dimen275
+\Fld@charsize=\dimen276
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -571,16 +582,16 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip54
+\Hy@SectionHShift=\skip56
 ))
-Package hyperref Info: Option `breaklinks' set `true' on input line 31.
-Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+Package hyperref Info: Option `breaklinks' set `true' on input line 32.
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip55
-\enit@outerparindent=\dimen272
-\enit@toks=\toks32
-\enit@inbox=\box85
+\labelindent=\skip57
+\enit@outerparindent=\dimen277
+\enit@toks=\toks33
+\enit@inbox=\box86
 \enit@count@id=\count291
 \enitdp@description=\count292
 ) (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
@@ -591,7 +602,7 @@ Package: expl3 2021-01-09 L3 programming layer (loader)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count293
-\l__pdf_internal_box=\box86
+\l__pdf_internal_box=\box87
 ))
 Package: xparse 2020-10-27 L3 Experimental document command parser
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
@@ -611,82 +622,82 @@ Package zref Info: New property: abspage on input line 66.
 ) (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip56
+\mdf@templength=\skip58
 \c@mdf@globalstyle@cnt=\count296
-\mdf@skipabove@length=\skip57
-\mdf@skipbelow@length=\skip58
-\mdf@leftmargin@length=\skip59
-\mdf@rightmargin@length=\skip60
-\mdf@innerleftmargin@length=\skip61
-\mdf@innerrightmargin@length=\skip62
-\mdf@innertopmargin@length=\skip63
-\mdf@innerbottommargin@length=\skip64
-\mdf@splittopskip@length=\skip65
-\mdf@splitbottomskip@length=\skip66
-\mdf@outermargin@length=\skip67
-\mdf@innermargin@length=\skip68
-\mdf@linewidth@length=\skip69
-\mdf@innerlinewidth@length=\skip70
-\mdf@middlelinewidth@length=\skip71
-\mdf@outerlinewidth@length=\skip72
-\mdf@roundcorner@length=\skip73
-\mdf@footenotedistance@length=\skip74
-\mdf@userdefinedwidth@length=\skip75
-\mdf@needspace@length=\skip76
-\mdf@frametitleaboveskip@length=\skip77
-\mdf@frametitlebelowskip@length=\skip78
-\mdf@frametitlerulewidth@length=\skip79
-\mdf@frametitleleftmargin@length=\skip80
-\mdf@frametitlerightmargin@length=\skip81
-\mdf@shadowsize@length=\skip82
-\mdf@extratopheight@length=\skip83
-\mdf@subtitleabovelinewidth@length=\skip84
-\mdf@subtitlebelowlinewidth@length=\skip85
-\mdf@subtitleaboveskip@length=\skip86
-\mdf@subtitlebelowskip@length=\skip87
-\mdf@subtitleinneraboveskip@length=\skip88
-\mdf@subtitleinnerbelowskip@length=\skip89
-\mdf@subsubtitleabovelinewidth@length=\skip90
-\mdf@subsubtitlebelowlinewidth@length=\skip91
-\mdf@subsubtitleaboveskip@length=\skip92
-\mdf@subsubtitlebelowskip@length=\skip93
-\mdf@subsubtitleinneraboveskip@length=\skip94
-\mdf@subsubtitleinnerbelowskip@length=\skip95
+\mdf@skipabove@length=\skip59
+\mdf@skipbelow@length=\skip60
+\mdf@leftmargin@length=\skip61
+\mdf@rightmargin@length=\skip62
+\mdf@innerleftmargin@length=\skip63
+\mdf@innerrightmargin@length=\skip64
+\mdf@innertopmargin@length=\skip65
+\mdf@innerbottommargin@length=\skip66
+\mdf@splittopskip@length=\skip67
+\mdf@splitbottomskip@length=\skip68
+\mdf@outermargin@length=\skip69
+\mdf@innermargin@length=\skip70
+\mdf@linewidth@length=\skip71
+\mdf@innerlinewidth@length=\skip72
+\mdf@middlelinewidth@length=\skip73
+\mdf@outerlinewidth@length=\skip74
+\mdf@roundcorner@length=\skip75
+\mdf@footenotedistance@length=\skip76
+\mdf@userdefinedwidth@length=\skip77
+\mdf@needspace@length=\skip78
+\mdf@frametitleaboveskip@length=\skip79
+\mdf@frametitlebelowskip@length=\skip80
+\mdf@frametitlerulewidth@length=\skip81
+\mdf@frametitleleftmargin@length=\skip82
+\mdf@frametitlerightmargin@length=\skip83
+\mdf@shadowsize@length=\skip84
+\mdf@extratopheight@length=\skip85
+\mdf@subtitleabovelinewidth@length=\skip86
+\mdf@subtitlebelowlinewidth@length=\skip87
+\mdf@subtitleaboveskip@length=\skip88
+\mdf@subtitlebelowskip@length=\skip89
+\mdf@subtitleinneraboveskip@length=\skip90
+\mdf@subtitleinnerbelowskip@length=\skip91
+\mdf@subsubtitleabovelinewidth@length=\skip92
+\mdf@subsubtitlebelowlinewidth@length=\skip93
+\mdf@subsubtitleaboveskip@length=\skip94
+\mdf@subsubtitlebelowskip@length=\skip95
+\mdf@subsubtitleinneraboveskip@length=\skip96
+\mdf@subsubtitleinnerbelowskip@length=\skip97
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box87
-\mdf@footnotebox=\box88
-\mdf@splitbox@one=\box89
-\mdf@splitbox@two=\box90
-\mdf@splitbox@save=\box91
-\mdfsplitboxwidth=\skip96
-\mdfsplitboxtotalwidth=\skip97
-\mdfsplitboxheight=\skip98
-\mdfsplitboxdepth=\skip99
-\mdfsplitboxtotalheight=\skip100
-\mdfframetitleboxwidth=\skip101
-\mdfframetitleboxtotalwidth=\skip102
-\mdfframetitleboxheight=\skip103
-\mdfframetitleboxdepth=\skip104
-\mdfframetitleboxtotalheight=\skip105
-\mdffootnoteboxwidth=\skip106
-\mdffootnoteboxtotalwidth=\skip107
-\mdffootnoteboxheight=\skip108
-\mdffootnoteboxdepth=\skip109
-\mdffootnoteboxtotalheight=\skip110
-\mdftotallinewidth=\skip111
-\mdfboundingboxwidth=\skip112
-\mdfboundingboxtotalwidth=\skip113
-\mdfboundingboxheight=\skip114
-\mdfboundingboxdepth=\skip115
-\mdfboundingboxtotalheight=\skip116
-\mdf@freevspace@length=\skip117
-\mdf@horizontalwidthofbox@length=\skip118
-\mdf@verticalmarginwhole@length=\skip119
-\mdf@horizontalspaceofbox=\skip120
-\mdfsubtitleheight=\skip121
-\mdfsubsubtitleheight=\skip122
+\mdf@frametitlebox=\box88
+\mdf@footnotebox=\box89
+\mdf@splitbox@one=\box90
+\mdf@splitbox@two=\box91
+\mdf@splitbox@save=\box92
+\mdfsplitboxwidth=\skip98
+\mdfsplitboxtotalwidth=\skip99
+\mdfsplitboxheight=\skip100
+\mdfsplitboxdepth=\skip101
+\mdfsplitboxtotalheight=\skip102
+\mdfframetitleboxwidth=\skip103
+\mdfframetitleboxtotalwidth=\skip104
+\mdfframetitleboxheight=\skip105
+\mdfframetitleboxdepth=\skip106
+\mdfframetitleboxtotalheight=\skip107
+\mdffootnoteboxwidth=\skip108
+\mdffootnoteboxtotalwidth=\skip109
+\mdffootnoteboxheight=\skip110
+\mdffootnoteboxdepth=\skip111
+\mdffootnoteboxtotalheight=\skip112
+\mdftotallinewidth=\skip113
+\mdfboundingboxwidth=\skip114
+\mdfboundingboxtotalwidth=\skip115
+\mdfboundingboxheight=\skip116
+\mdfboundingboxdepth=\skip117
+\mdfboundingboxtotalheight=\skip118
+\mdf@freevspace@length=\skip119
+\mdf@horizontalwidthofbox@length=\skip120
+\mdf@verticalmarginwhole@length=\skip121
+\mdf@horizontalspaceofbox=\skip122
+\mdfsubtitleheight=\skip123
+\mdfsubsubtitleheight=\skip124
 \c@mdfcountframes=\count297
 
 ****** mdframed patching \endmdf@trivlist
@@ -699,48 +710,48 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@zref@counter=\count301
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-\imagewidth=\skip123
-\imagescale=\skip124
+\imagewidth=\skip125
+\imagescale=\skip126
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks33
-\inpenc@posthook=\toks34
+\inpenc@prehook=\toks34
+\inpenc@posthook=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-12.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)) (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesome.sty
-Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+Package: fontawesome5 2020/03/24 v5.13.0 Font Awesome 5
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic
-.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.
-tex))
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-help
+er.sty
+Package: fontawesome5-generic-helper 2020/03/24 v5.13.0 non-uTeX helper for fon
+tawesome5
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def)
+))
 \enitdp@outerlist=\count302
 \enitdp@lonelist=\count303
 \enitdp@innerlist=\count304
 \enitdp@loneinnerlist=\count305
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
+12.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
-\@mathmargin=\skip125
+\@mathmargin=\skip127
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
-\ex@=\dimen273
+\@emptytoks=\toks36
+\ex@=\dimen278
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen274
+\pmbraise@=\dimen279
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
@@ -754,9 +765,9 @@ LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box92
-\strutbox@=\box93
-\big@size=\dimen275
+\Mathstrutbox@=\box93
+\strutbox@=\box94
+\big@size=\dimen280
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count311
@@ -764,21 +775,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip17
 \c@parentequation=\count313
 \dspbrk@lvl=\count314
-\tag@help=\toks36
+\tag@help=\toks37
 \row@=\count315
 \column@=\count316
 \maxfields@=\count317
-\andhelp@=\toks37
-\eqnshift@=\dimen276
-\alignsep@=\dimen277
-\tagshift@=\dimen278
-\tagwidth@=\dimen279
-\totwidth@=\dimen280
-\lineht@=\dimen281
-\@envbody=\toks38
-\multlinegap=\skip126
-\multlinetaggap=\skip127
-\mathdisplay@stack=\toks39
+\andhelp@=\toks38
+\eqnshift@=\dimen281
+\alignsep@=\dimen282
+\tagshift@=\dimen283
+\tagwidth@=\dimen284
+\totwidth@=\dimen285
+\lineht@=\dimen286
+\@envbody=\toks39
+\multlinegap=\skip128
+\multlinetaggap=\skip129
+\mathdisplay@stack=\toks40
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 ) (/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
@@ -807,16 +818,16 @@ LaTeX Font Info:    ... okay on input line 15.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count318
-\scratchdimen=\dimen282
-\scratchbox=\box94
+\scratchdimen=\dimen287
+\scratchbox=\box95
 \nofMPsegments=\count319
 \nofMParguments=\count320
-\everyMPshowfont=\toks40
+\everyMPshowfont=\toks41
 \MPscratchCnt=\count321
-\MPscratchDim=\dimen283
+\MPscratchDim=\dimen288
 \MPnumerator=\count322
 \makeMPintoPDFobject=\count323
-\everyMPtoPDFconversion=\toks41
+\everyMPtoPDFconversion=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -939,20 +950,24 @@ Overfull \hbox (37.60596pt too wide) in paragraph at lines 73--77
 [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 85.
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
+nput line 85.
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+nput line 86.
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 92.
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
-)
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
+ input line 93.
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <14.4> no
+t available
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 93.
+
 Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
@@ -961,6 +976,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--94
 Overfull \hbox (2.61049pt too wide) in paragraph at lines 82--95
 [][] [] 
  []
+
+
+LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <17.28> not available
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 97.
 
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
 104.
@@ -980,11 +999,11 @@ Package rerunfilecheck Info: File `thyv.out' has not changed.
 (rerunfilecheck)             Checksum: 42FC3621B599885DB9DD9C616EC1B46F;299.
  ) 
 Here is how much of TeX's memory you used:
- 23196 strings out of 481126
- 444529 string characters out of 5911896
- 810884 words of memory out of 5000000
- 39668 multiletter control sequences out of 15000+600000
- 416380 words of font info for 53 fonts, out of 8000000 for 9000
+ 24963 strings out of 481126
+ 493130 string characters out of 5911896
+ 846360 words of memory out of 5000000
+ 41427 multiletter control sequences out of 15000+600000
+ 416599 words of font info for 54 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  128i,8n,130p,492b,766s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.
@@ -995,17 +1014,19 @@ ec/ecso1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
 pen/ec/tcss1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecsi1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfo
 ur/jknappen/ec/ecsx1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/
-ljfour/jknappen/ec/ecsx1728.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvip
-s/fontawesome/fontawesomeone.enc} </home/thyriaen/.texlive2020/texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecss1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/d
-vips/fontawesome/fontawesometwo.enc}</usr/share/texlive/texmf-dist/fonts/type1/
-public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
+ljfour/jknappen/ec/eccc1728.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fo
+ntawesome5/fa5free2.enc} </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecss1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/font
+awesome5/fa5free0.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawe
+some5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.pdf 
-(2 pages, 1963019 bytes).
+(2 pages, 1968459 bytes).
 PDF statistics:
  331 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 97 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
