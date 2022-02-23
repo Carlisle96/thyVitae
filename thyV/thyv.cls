@@ -286,10 +286,17 @@
 
     \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
 
-    \newcommand{\thyntry}[4]{\textbf{#1}
-        \hfill
-        {\footnotesize \textbf{#2}}\\% Right-aligned entry qualifier text
-        #3 \\ \texttt{#4}\\}
+    \newcommand{\thyntry}[5]{\textbf{#1}
+        \hfill{\footnotesize \textbf{#2}}\\
+        #4 \\ \texttt{#5}\hfill\textcolor{thyGrey}{#3}\\}
+
+    \newcommand{\thyntrySmall}[4]{\textbf{#1}
+        \hfill{\footnotesize \textbf{#2}}\\
+        #4 \hfill\textcolor{thyGrey}{#3}\\}
+
+    \newcommand{\thyntryLast}[5]{\textbf{#1}
+        \hfill{\footnotesize \textbf{#2}}\\
+        #4 \\ \texttt{#5}\hfill\textcolor{thyGrey}{#3}}
 
 
 %%% LISTS

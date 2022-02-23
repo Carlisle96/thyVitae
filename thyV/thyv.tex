@@ -15,6 +15,7 @@
     \definecolor{thyFirst}{RGB}{132,70,132}
     \definecolor{thySecond}{RGB}{70,70,132}
     \definecolor{thyThird}{RGB}{170,60,60}
+    \definecolor{thyGrey}{RGB}{100,100,100}
 
 \begin{document}
 
@@ -86,7 +87,7 @@
 		\begin{minipage}[t]{0.50\textwidth} % 27.5% of the page width for the first row of icons
 			\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-			\icon{Cross}{12}{30. November 1990}\\
+			\icon{Cross}{12}{30. Dezember 1990}\\
 			\icon{Phone}{12}{+49 163 222 99 64}\\
 				
 		\end{minipage}
@@ -99,57 +100,8 @@
 
 
 		\thyVsection{Publication}{thyThird}
-			M. J. Luckow and T. Fluschnik. \textbf{``\href{https://doi.org/10.1016/j.ipl.2019.105913}{On the Computational Complexity of Length- and Neighborhood-Constrained Path Problems}''}. In: \textit{Information Processing Letters.} Vol. 156 (2020). %\texttt{\doi{10.1016/j.ipl.2019.105913}}
+			M. J. Luckow and T. Fluschnik. \textbf{``\href{https://doi.org/10.1016/j.ipl.2019.105913}{On the Computational Complexity of Length- and Neighborhood-Constrained Path Problems}''}. In: \textit{Information Processing Letters.} Vol. 156 (2020). \hfill \textcolor{thyGrey}{1/2020} %\texttt{\doi{10.1016/j.ipl.2019.105913}}
 		
-
-		\thyVsection{Work Experience}{thySecond}
-			\thyntry{Technical Acountant}{Agilo-Services GmbH}
-			{Analysis, optimization, automation and supervision of the accounting system}
-			{Datev Uno \slashsep Haskell}
-
-			\thyntry{Web Developer}{Trado GmbH}
-			{Programming and maintenance of the internal administrative software}
-			{Javascritp \slashsep Node.js \slashsep Vue.js \slashsep SQL}
-
-			\thyntry{Technical Specialist}{Envion AG}{Analysis of Cryptocurrency market
-			    	\\ Devolopment of the first mining operations prototype
-			    	\\ Supervision of the production of the first large scale mining operation}
-			    	{Linux \slashsep Solidity \slashsep ...}
-
-			\thyntry{Self-employed}{}{IT administration, development and project support}{}
-
-		\thyVsection{Education}{thyFirst}
-			\textbf{Technical University of Berlin}
-
-			\begin{outerlist}
-				\item[] Master of Science. \textit{Computer Science} 					\hfill \textbf{04/2017 - \textit{03/2023}}
-				        \begin{innerlist}
-				        	\item Specialisation in: Cognitive Systems
-				        \end{innerlist}
-
-				\item[] Bachelor of Science. \textit{Computer Science} 					\hfill \textbf{10/2013 - 03/2017}
-				        \begin{innerlist}
-				        \item Thesis: Algorithms and Complexity 						\hfill ( Grade 2.0 ) \\
-				        Advisor: Prof. Dr. Rolf Niedermeier
-				        \item Degree: Bachelor of Science 								\hfill ( Grade 2.8 ) \\
-				        Area of Study: Foundations of Computing
-				        \end{innerlist}
-
-				\item[] Bachelor of Science. \textit{Energy and Process Engineering} 	\hfill \textbf{04/2011 - 09/2013}
-			\end{outerlist}
-
-			\bigskip
-			\textbf{Arndt Gynasium Dahlem} 												\hfill \textbf{08/2003 - 06/2010}
-			    \begin{outerlist}
-			    	\item[] Degree: high-school diploma 								\hfill ( Grade 2.1 )
-			    \end{outerlist}
-
-		\thyVsection{Social Experience}{thySecond}
-			\textbf{Hospital Waldfriede Berlin} 										\hfill \textbf{08/2010 - 01/2011}
-			    \begin{outerlist}
-			    	\item[] Community service in the surgial ward
-			    \end{outerlist}
-
 		\thyVsection{Technical Expertise}{thyBlack}
 			C/\Cplusplus, Java, Python \hfill \ThreeOfFour \\
 			Latex \hfill \ThreeOfFour \\
@@ -161,15 +113,43 @@
 			%\columnbreak
 			Datev Uno \hfill \FourOfFour
 
+		\thyVsection{Work Experience}{thySecond}
+			\thyntry{Technical Acountant}{Agilo-Services GmbH}{9/2020 -- present}
+			{Analysis, optimization, automation and supervision of the accounting system}
+			{Datev Uno \slashsep Haskell}
 
-			%\end{multicols}
+			\thyntry{Web Developer}{Trado GmbH}{3/2018 -- 4/2018}
+			{Programming and maintenance of the internal administrative software}
+			{Javascritp \slashsep Node.js \slashsep Vue.js \slashsep SQL}
+
+			\thyntryLast{Technical Specialist}{Envion AG}{6/2017 -- 11/2017}
+					{Analysis of Cryptocurrency market
+			    	\\ Devolopment of the first mining operations prototype
+			    	\\ Supervision of the production of the first large scale mining operation}
+			    	{Linux \slashsep Solidity \slashsep ...}
+
+			%\thyntrySmall{Self-employed}{}{1/2014 -- 5/2017}
+			%{IT administration, development and project support}
+
+			%\thyntrySmall{Assistant in surgical ward}{Hospital Waldfriede Berlin}{08/2010 -- 01/2011}
+			%{Community service}
+
+		\thyVsection{Education}{thyFirst}
+
+			\thyntry{Master of Science. Computer Science}{Technical University of Berlin}{4/2017 -- \textit{3/2013}}{Specialisation in: Cognitive Systems}{Solidity \dots}
+
+			\thyntryLast{Bachelor of Science. Computer Science}{Technical University of Berlin}{4/2017 -- \textit{3/2013}}{Thesis: Algorithms and Complexity \\ Area of Study: Foundations of Computing}{Solidity \dots}{}
+
+			%\thyntrySmall{Energy and Process Engineering}{Technical University of Berlin}{4/2011 -- 9/2013}{}
+
+			%\thyntrySmall{High-school diploma}{Arndt Gynasium Dahlem}{8/2003 -- 6/2010}{}
 
 		\thyVsection{Language Expertise}{thyBlack}
-			German \hfill Native speaker \\
-			English \hfill Advanced \\
-			Latin \hfill Latinum
+			German: Native speaker \\
+			English: Advanced \\
+			Latin: Latinum
 
-
+		\vspace{-25pt}
 		\hfill\includegraphics[width=100pt]{signature2.png}
 	\end{mdframed}
 
