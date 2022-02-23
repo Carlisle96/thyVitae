@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  23 FEB 2022 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  23 FEB 2022 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,22 +799,22 @@ Package: relsize 2013/03/29 ver 4.1
 ) (/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.aux)
 \openout1 = `thyv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count318
@@ -870,7 +870,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 15.
+Package hyperref Info: Link coloring ON on input line 19.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -880,21 +880,21 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count324
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 (/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.out) (/home/thyriaen/
 Workspace/LaTex/thyVitae/thyV/Output/thyv.out)
 \@outlinefile=\write4
 \openout4 = `thyv.out'.
 
-<max0.6.png, id=31, 361.35pt x 361.35pt>
+<max0.6.png, id=7, 361.35pt x 361.35pt>
 File: max0.6.png Graphic file (type png)
 <use max0.6.png>
-Package pdftex.def Info: max0.6.png  used on input line 33.
+Package pdftex.def Info: max0.6.png  used on input line 37.
 (pdftex.def)             Requested size: 142.26378pt x 142.26578pt.
 
-Overfull \hbox (9.03253pt too wide) in paragraph at lines 42--43
+Overfull \hbox (9.03253pt too wide) in paragraph at lines 46--47
 []\T1/cmss/m/n/17.28 Max-Jonathan Luckow 
  []
 
@@ -926,107 +926,136 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
 
-Overfull \hbox (3.86707pt too wide) in paragraph at lines 66--67
+Overfull \hbox (3.86707pt too wide) in paragraph at lines 70--71
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Overfull \hbox (1.17493pt too wide) in paragraph at lines 68--68
+Overfull \hbox (1.17493pt too wide) in paragraph at lines 72--72
 \T1/cmss/m/n/12 Experience 
  []
 
 
-Overfull \hbox (1.06612pt too wide) in paragraph at lines 68--68
+Overfull \hbox (1.06612pt too wide) in paragraph at lines 72--72
 \T1/cmss/m/n/12 Events 
  []
 
 
-Overfull \hbox (37.60596pt too wide) in paragraph at lines 73--77
+Overfull \hbox (37.60596pt too wide) in paragraph at lines 77--81
 [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 85.
+nput line 89.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 86.
+nput line 90.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 93.
+ input line 97.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <14.4> no
 t available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 93.
+n input line 97.
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
 
-Overfull \hbox (2.61049pt too wide) in paragraph at lines 82--95
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 86--99
 [][] [] 
  []
 
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+01.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 101.
 
-LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <17.28> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 97.
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
 
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-104.
+125.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<signature2.png, id=36, 689.57625pt x 368.37625pt>
+<signature2.png, id=12, 689.57625pt x 368.37625pt>
 File: signature2.png Graphic file (type png)
 <use signature2.png>
-Package pdftex.def Info: signature2.png  used on input line 183.
+Package pdftex.def Info: signature2.png  used on input line 173.
 (pdftex.def)             Requested size: 100.0pt x 53.41599pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./max0.6.png>] [2 <./signa
 ture2.png>] (/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.aux)
 Package rerunfilecheck Info: File `thyv.out' has not changed.
-(rerunfilecheck)             Checksum: 42FC3621B599885DB9DD9C616EC1B46F;299.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24963 strings out of 481126
- 493130 string characters out of 5911896
- 846370 words of memory out of 5000000
- 41427 multiletter control sequences out of 15000+600000
- 416599 words of font info for 54 fonts, out of 8000000 for 9000
+ 24968 strings out of 481126
+ 493555 string characters out of 5911896
+ 844636 words of memory out of 5000000
+ 41434 multiletter control sequences out of 15000+600000
+ 416997 words of font info for 55 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  128i,8n,130p,492b,766s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.
+ </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.
 600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1
-728.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-csx0600.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecso1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/tcss1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsi1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecsx1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/
-ljfour/jknappen/ec/eccc1728.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvip
-s/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fo
-ntawesome5/fa5free2.enc} </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecss1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/font
-awesome5/fa5free0.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawe
-some5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+000.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+css1728.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
+ec/tcss1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecso1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecsx1000.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecsi1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/
+ljfour/jknappen/ec/ecsx1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ectt1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/
+dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/fontawesome5/fa5free2.enc} </home/thyriaen/.texlive2020/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecss1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
+fontawesome5/fa5free0.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fon
+tawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.pdf 
-(2 pages, 1968282 bytes).
+(2 pages, 1974777 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

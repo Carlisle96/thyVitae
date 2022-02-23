@@ -12,6 +12,10 @@
 \usepackage{url}
 \usepackage{hyperref}
 
+    \definecolor{thyFirst}{RGB}{132,70,132}
+    \definecolor{thySecond}{RGB}{70,70,132}
+    \definecolor{thyThird}{RGB}{170,60,60}
+
 \begin{document}
 
 	\begin{tikzpicture}[remember picture,overlay]
@@ -94,38 +98,27 @@
 		\end{minipage}
 
 
-		\section{Publication}
+		\thyVsection{Publication}{thyThird}
 			M. J. Luckow and T. Fluschnik. \textbf{``\href{https://doi.org/10.1016/j.ipl.2019.105913}{On the Computational Complexity of Length- and Neighborhood-Constrained Path Problems}''}. In: \textit{Information Processing Letters.} Vol. 156 (2020). %\texttt{\doi{10.1016/j.ipl.2019.105913}}
+		
 
-		\section{Work Experience}
+		\thyVsection{Work Experience}{thySecond}
+			\thyntry{Technical Acountant}{Agilo-Services GmbH}
+			{Analysis, optimization, automation and supervision of the accounting system}
+			{Datev Uno \slashsep Haskell}
 
-			\textbf{Technical Acountant} at \textbf{Agilo-Services GmbH}				\hfill \textbf{09/2020 - Present}
-				\begin{loneinnerlist}
-					\item Analysis, optimization, automation and supervision of the accounting system
-				\end{loneinnerlist}
+			\thyntry{Web Developer}{Trado GmbH}
+			{Programming and maintenance of the internal administrative software}
+			{Javascritp \slashsep Node.js \slashsep Vue.js \slashsep SQL}
 
-			\bigskip
-			\textbf{Web Developer} at \textbf{Trado GmbH}								\hfill \textbf{03/2018 - 04/2018}
-				\begin{loneinnerlist}
-					\item Programming and maintenance of the internal administrative software
-				\end{loneinnerlist}
+			\thyntry{Technical Specialist}{Envion AG}{Analysis of Cryptocurrency market
+			    	\\ Devolopment of the first mining operations prototype
+			    	\\ Supervision of the production of the first large scale mining operation}
+			    	{Linux \slashsep Solidity \slashsep ...}
 
-			\bigskip
-			\textbf{Technical Specialist} at \textbf{Envion AG} 						\hfill \textbf{06/2017 - 11/2017}
-			    \begin{loneinnerlist}
-			    	\item Analysis of Cryptocurrency market
-			    	\item Devolopment of the first mining operations prototype
-			    	\item Supervision of the production of the first large scale mining operation
-			    \end{loneinnerlist}
+			\thyntry{Self-employed}{}{IT administration, development and project support}{}
 
-			\bigskip
-			\textbf{Self-employed} 														\hfill \textbf{01/2014 - 05/2017}
-			    \begin{loneinnerlist}
-			    	\item IT administration, development and project support
-			    \end{loneinnerlist}
-
-		\section{Education}
-
+		\thyVsection{Education}{thyFirst}
 			\textbf{Technical University of Berlin}
 
 			\begin{outerlist}
@@ -151,16 +144,13 @@
 			    	\item[] Degree: high-school diploma 								\hfill ( Grade 2.1 )
 			    \end{outerlist}
 
-		\section{Social Experience}
-
+		\thyVsection{Social Experience}{thySecond}
 			\textbf{Hospital Waldfriede Berlin} 										\hfill \textbf{08/2010 - 01/2011}
 			    \begin{outerlist}
 			    	\item[] Community service in the surgial ward
 			    \end{outerlist}
 
-		\section{Technical Expertise}
-
-			%\begin{multicols}{2}
+		\thyVsection{Technical Expertise}{thyBlack}
 			C/\Cplusplus, Java, Python \hfill \ThreeOfFour \\
 			Latex \hfill \ThreeOfFour \\
 			Haskell \hfill \OneOfFour \\
@@ -174,7 +164,7 @@
 
 			%\end{multicols}
 
-		\section{Language Expertise}
+		\thyVsection{Language Expertise}{thyBlack}
 			German \hfill Native speaker \\
 			English \hfill Advanced \\
 			Latin \hfill Latinum

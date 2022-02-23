@@ -26,8 +26,8 @@
 \hypersetup{breaklinks,colorlinks,
             %linkcolor=black,urlcolor=black,
             %anchorcolor=black,citecolor=black,
-            linkcolor=thyFirst,urlcolor=thyFirst,
-            anchorcolor=thyFirst,citecolor=thyFirst,
+            linkcolor=thyThird,urlcolor=thyThird,
+            anchorcolor=thyThird,citecolor=thyThird,
             %draft
             }
 \RequirePackage[shortlabels]{enumitem}
@@ -267,14 +267,29 @@
 %----------------------------------------------------------------------------------------
 %   TitleFormat
 %----------------------------------------------------------------------------------------
-    \titleformat{\section}
-        {\Large\scshape\raggedright}
-        {}{0cm} % prefix
-        {}      % insert code before header
-        %[\titlerule]
+    \newcommand{\thyVsection}[2]{% The only parameter is the section text
+        \vspace{\baselineskip} % Whitespace before the section title
+        \colorbox{#2}{ \textcolor{thyWhite}{\texttt{\textbf{#1}}} }
+        \textcolor{#2}{\hrule width0.6\textwidth}
+        \vspace{\baselineskip}
+        % Section title
+    }
+
+    %\titleformat{\section}
+    %    {\Large\scshape\raggedright}
+    %    {}{0cm} % prefix
+    %    {}      % insert code before header
+    %    %[\titlerule]
     %\titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
     %<left> increases the left margin; <before-sep> controls the vertical space before the title; <after-sep> controls the vertical space after the title. 
-    \titlespacing{\section}{0pt}{0pt}{0pt}
+    %\titlespacing{\section}{0pt}{0pt}{0pt}
+
+    \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
+
+    \newcommand{\thyntry}[4]{\textbf{#1}
+        \hfill
+        {\footnotesize \textbf{#2}}\\% Right-aligned entry qualifier text
+        #3 \\ \texttt{#4}\\}
 
 
 %%% LISTS
