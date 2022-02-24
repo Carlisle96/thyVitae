@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  23 FEB 2022 23:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  24 FEB 2022 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,46 +999,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <6> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 141.
 <signature2.png, id=12, 689.57625pt x 368.37625pt>
 File: signature2.png Graphic file (type png)
 <use signature2.png>
-Package pdftex.def Info: signature2.png  used on input line 153.
-(pdftex.def)             Requested size: 100.0pt x 53.41599pt.
+Package pdftex.def Info: signature2.png  used on input line 155.
+(pdftex.def)             Requested size: 85.35826pt x 45.59723pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./signature2.png> <./max0.
-6.png>] (/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./max0.6.png> <./signature
+2.png>] (/home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.aux)
 Package rerunfilecheck Info: File `thyv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24947 strings out of 481126
- 492929 string characters out of 5911896
- 834364 words of memory out of 5000000
- 41419 multiletter control sequences out of 15000+600000
- 415828 words of font info for 53 fonts, out of 8000000 for 9000
+ 24949 strings out of 481126
+ 492949 string characters out of 5911896
+ 834397 words of memory out of 5000000
+ 41420 multiletter control sequences out of 15000+600000
+ 416141 words of font info for 54 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  128i,8n,130p,492b,766s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.
 600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1
 728.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-csx1000.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecsx0600.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecsi1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsx1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ectt1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fo
-ntawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontaw
-esome5/fa5free2.enc} </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecss1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawes
-ome5/fa5free0.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome
-5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb>
+ctt0800.450pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecsx1000.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecsx0600.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecsi1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecsx1200.600pk> </home/thyriaen/.texlive2020/texmf-var/fonts/pk/
+ljfour/jknappen/ec/ectt1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fo
+ntawesome5/fa5free2.enc} </home/thyriaen/.texlive2020/texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecss1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/font
+awesome5/fa5free0.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawe
+some5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /home/thyriaen/Workspace/LaTex/thyVitae/thyV/Output/thyv.pdf 
-(1 page, 1970561 bytes).
+(1 page, 1971227 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 324 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
