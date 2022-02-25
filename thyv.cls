@@ -4,6 +4,7 @@
 \LoadClass[12pt]{article}
 
 \RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
 \RequirePackage{tikz}
 \usetikzlibrary{shapes, backgrounds}
 
@@ -284,7 +285,7 @@
     %<left> increases the left margin; <before-sep> controls the vertical space before the title; <after-sep> controls the vertical space after the title. 
     %\titlespacing{\section}{0pt}{0pt}{0pt}
 
-    \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
+    \newcommand{\slashsep}{\textbackslash\hspace{2mm}}
 
     \newcommand{\thyntry}[5]{\textbf{#1}
         \hfill{\footnotesize \textbf{#2}}\\
@@ -297,75 +298,79 @@
     \newcommand{\thyntryLast}[5]{\textbf{#1}
         \hfill{\footnotesize \textbf{#2}}\\
         #4 \\ \texttt{#5}\hfill\textcolor{thyGrey}{#3}}
+%----------------------------------------------------------------------------------------
+%   Pie Chart
+%----------------------------------------------------------------------------------------
+    
+    
 
 
-%%% LISTS
 
-    % This macro alters a list by removing some of the space that follows the list
-    % (is used by lists below)
-    \newcommand*\fixendlist[1]{%
-        \expandafter\let\csname preFixEndListend#1\expandafter\endcsname\csname end#1\endcsname
-        \expandafter\def\csname end#1\endcsname{\csname preFixEndListend#1\endcsname\vspace{-0.6\baselineskip}}}
 
-    % These macros help ensure that items in outer-type lists do not get
-    % separated from the next line by a page break
-    % (they are used by lists below)
-    \let\originalItem\item
-    \newcommand*\fixouterlist[1]{%
-        \expandafter\let\csname preFixOuterList#1\expandafter\endcsname\csname #1\endcsname
-        \expandafter\def\csname #1\endcsname{\let\oldItem\item\def\item{\pagebreak[2]\oldItem}\csname preFixOuterList#1\endcsname}
-        \expandafter\let\csname preFixOuterListend#1\expandafter\endcsname\csname end#1\endcsname
-        \expandafter\def\csname end#1\endcsname{\let\item\oldItem\csname preFixOuterListend#1\endcsname}}
-    \newcommand*\fixinnerlist[1]{%
-        \expandafter\let\csname preFixInnerList#1\expandafter\endcsname\csname #1\endcsname
-        \expandafter\def\csname #1\endcsname{\let\oldItem\item\let\item\originalItem\csname preFixInnerList#1\endcsname}
-        \expandafter\let\csname preFixInnerListend#1\expandafter\endcsname\csname end#1\endcsname
-        \expandafter\def\csname end#1\endcsname{\csname preFixInnerListend#1\endcsname\let\item\oldItem}}
 
-    % An itemize-style list with lots of space between items
-    %
-    % Usage:
-    %   \begin{outerlist}
-    %       \item ...    % (or \item[] for no bullet)
-    %   \end{outerlist}
-    \newlist{outerlist}{itemize}{3}
-        \setlist[outerlist]{label=\enskip\textbullet,leftmargin=*}
-        \fixendlist{outerlist}
-        \fixouterlist{outerlist}
 
-    % An environment IDENTICAL to outerlist that has better pre-list spacing
-    % when used as the first thing in a \section
-    %
-    % Usage:
-    %   \begin{lonelist}
-    %       \item ...    % (or \item[] for no bullet)
-    %   \end{lonelist}
-    \newlist{lonelist}{itemize}{3}
-        \setlist[lonelist]{label=\enskip\textbullet,leftmargin=*,partopsep=0pt,topsep=0pt}
-        \fixendlist{lonelist}
-        \fixouterlist{lonelist}
 
-    % An itemize-style list with little space between items
-    %
-    % Usage:
-    %   \begin{innerlist}
-    %       \item ...    % (or \item[] for no bullet)
-    %   \end{innerlist}
-    \newlist{innerlist}{itemize}{3}
-        \setlist[innerlist]{label=\enskip\textbullet,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt}
-        \fixinnerlist{innerlist}
 
-    % An environment IDENTICAL to innerlist that has better pre-list spacing
-    % when used as the first thing in a \section
-    %
-    % Usage:
-    %   \begin{loneinnerlist}
-    %       \item ...    % (or \item[] for no bullet)
-    %   \end{loneinnerlist}
-    \newlist{loneinnerlist}{itemize}{3}
-        \setlist[loneinnerlist]{label=\enskip\textbullet,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt}
-        \fixendlist{loneinnerlist}
-        \fixinnerlist{loneinnerlist}
+
+
+
+    \newcounter{a}
+    \newcounter{b}
+    \newcounter{c}
+    % draw a slice for a chart
+    % param 1: Circle form - 90 = quarter, 180 = half, 360 = full
+    % param 2: scale default=1 (scales only chart, not label text)
+    % param 3: border color
+    % param 4: label text color
+    % param 5: label bg color
+    % param 6:
+    \newenvironment{piechart}[5] {
+
+        % draw a slice for a chart
+        % param 1: value x of 100
+        % param 2: label text
+        % param 3: fill color
+        % param 4:
+        % param 5:
+        % param 6:
+        \newcommand{\slice}[3] {
+
+            \setcounter{a}{\value{b}}
+            \addtocounter{b}{##1}
+
+            %set from angle point
+            \pgfmathparse{\thea/100*#1}
+            \let\pointa\pgfmathresult
+
+            %set toanglepoint
+            \pgfmathparse{\theb/100*#1}
+            \let\pointb\pgfmathresult
+
+            %set midangle
+            \pgfmathparse{0.5*\pointa+0.5*\pointb}
+            \let\midangle\pgfmathresult
+            
+            % draw the slice
+            \filldraw[fill=##3,draw=#3, line width=5pt] (0,0) -- (\pointa:#2) arc (\pointa:\pointb:#2) -- cycle;
+
+            % draw label
+            \node[label=\midangle:\colorbox{#5}{\textcolor{#4}{##2}}] at (\midangle:#2) {};
+
+            \filldraw[fill=#3,draw=none] (0,0) circle (#2/2);
+        }
+
+        % execute commands
+        \setcounter{a}{0}
+        \setcounter{b}{0}
+
+        \begin{tikzpicture}
+        }{
+            \end{tikzpicture}
+        }
+
+
+
+
 
     \newcommand{\cvskill}[2]{%
     \textcolor{black}{\textbf{#1}}\hfill
@@ -379,3 +384,5 @@
     \def\TwoOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\circ}\mskip\medmuskip{\circ}}$}
     \def\ThreeOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\circ}}$}
     \def\FourOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\bullet}}$}
+
+
