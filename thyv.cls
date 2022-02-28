@@ -1,27 +1,24 @@
 \ProvidesClass{thyv}[1st CV class by thyriaen]
 
 \NeedsTeXFormat{LaTeX2e}
-\LoadClass[12pt]{article}
+\LoadClass[11pt]{article}
+\RequirePackage[a4paper]{geometry}
 
 \RequirePackage[T1]{fontenc}
 \RequirePackage{lmodern}
+
 \RequirePackage{tikz}
 \usetikzlibrary{shapes, backgrounds}
+\usetikzlibrary{decorations.text}
 
 \RequirePackage[absolute,overlay]{textpos}
 \RequirePackage{color}
-\RequirePackage[a4paper]{geometry}
-\RequirePackage{calc}
-
-\RequirePackage{titlesec}
 
 \RequirePackage{xifthen}
 \RequirePackage{setspace}
-\RequirePackage{array}
-\RequirePackage{graphicx}
-\RequirePackage{wrapfig}
-
 \RequirePackage{xstring}
+\RequirePackage{calc}
+
 \RequirePackage{doi}
 \RequirePackage{url}
 \hypersetup{breaklinks,colorlinks,
@@ -31,7 +28,7 @@
             anchorcolor=thyThird,citecolor=thyThird,
             %draft
             }
-\RequirePackage[shortlabels]{enumitem}
+
 \RequirePackage[%
     linewidth = 1pt,
     middlelinecolor = black,
@@ -56,7 +53,7 @@
     \pagestyle{empty}			% no header, footer
     \setlength{\parindent}{0pt}	% no paragraph indentation
 
-    \geometry{top=1cm, bottom=1cm, left=6cm, right=1cm}
+    \geometry{top=1.5cm, bottom=0.5cm, left=6cm, right=1cm}
     \setlength{\TPHorizModule}{1cm} % Left margin
     \setlength{\TPVertModule}{1cm} % Top margin
 
@@ -67,6 +64,9 @@
 
     \providecommand*\emaillink[1]{\nolinkurl{#1}}
     \providecommand*\email[1]{\href{mailto:#1}{\emaillink{#1}}}
+
+    \def\Cplusplus{C\raisebox{0.5ex}{\tiny\textbf{++}}}
+    \def\CplusplusSpace{C\raisebox{0.5ex}{\tiny\textbf{++}} }
 %----------------------------------------------------------------------------------------
 %    COLORS
 %----------------------------------------------------------------------------------------
@@ -135,6 +135,16 @@
                 \def\boxContent{\textFormat\textcolor{thyBlack}{##2}}
             }{
                 \def\boxContent{\textFormat\textcolor{thyGrey}{##4} \textcolor{thyBlack}{##2}}
+            }
+
+            \ifthenelse{\equal{##3}{thyThird}}{
+                \def\distance{0}
+            }{
+                \ifthenelse{\equal{##3}{thySecond}}{
+                    \def\distance{-0.65}
+                }{
+                    \def\distance{-0.25}
+                }
             }
 
             \draw[draw=##3, line width=1.5pt] (0, \startX) -- (0.5,\startX);
@@ -237,6 +247,40 @@
     % 3: color
     \newcommand{\thyLegend}[3]{\parbox{#2}{\textcolor{#3}{\rule{#2}{3pt}}\\#1}}
 %----------------------------------------------------------------------------------------
+%   Barchart
+%---------------------------------------------------------------------------------------- 
+    \newcounter{barcount}
+
+    % Environment to hold a new bar chart
+    \newenvironment{barchart}[1]{ % The only parameter is the maximum bar width, in cm
+        \newcommand{\barwidth}{0.35}
+        \newcommand{\barsep}{0.2}
+        
+        % Command to add a bar to the bar chart
+        \newcommand{\baritem}[2]{ % The first argument is the bar label and the second is the percentage the current bar should take up of the total width
+            \pgfmathparse{##2}
+            \let\perc\pgfmathresult
+            
+            \pgfmathparse{#1}
+            \let\barsize\pgfmathresult
+            
+            \pgfmathparse{\barsize*##2/100}
+            \let\barone\pgfmathresult
+            
+            \pgfmathparse{(\barwidth*\thebarcount)+(\barsep*\thebarcount)}
+            \let\barx\pgfmathresult
+            
+            \filldraw[fill=thySecond, draw=none] (0,-\barx) rectangle (\barone,-\barx-\barwidth);
+            
+            \node [label=180:\textcolor{thyBlack}{##1}] at (0,-\barx-0.175) {};
+            \addtocounter{barcount}{1}
+        }
+        \begin{tikzpicture}
+            \setcounter{barcount}{0}
+    }{
+        \end{tikzpicture}
+    }
+%----------------------------------------------------------------------------------------
 %   FONTS
 %----------------------------------------------------------------------------------------
 
@@ -293,7 +337,7 @@
 
     \newcommand{\thyntrySmall}[4]{\textbf{#1}
         \hfill{\footnotesize \textbf{#2}}\\
-        #4 \hfill\textcolor{thyGrey}{#3}\\}
+        #4 \hfill\textcolor{thyGrey}{#3}}
 
     \newcommand{\thyntryLast}[5]{\textbf{#1}
         \hfill{\footnotesize \textbf{#2}}\\
@@ -302,87 +346,55 @@
 %   Pie Chart
 %----------------------------------------------------------------------------------------
     
-    
+    \def\innerCirc{1.5}
+    \def\outerCirc{3}
 
+    \newenvironment{thyChart} {
+        \begin{tikzpicture}[x=0.85cm, y=0.85cm]
+            \draw[draw=thyWhite, fill=thyBlack,thick, line width=6pt] 
+                (0:\innerCirc) -- (0:\outerCirc) arc (0:36:\outerCirc) -- (36:\innerCirc) arc (36:0:\innerCirc);
+            \draw[draw=thyWhite, fill=thyThird,thick, line width=6pt] 
+                (36:\innerCirc) -- (36:\outerCirc) arc (36:108:\outerCirc) -- (108:\innerCirc) arc (108:36:\innerCirc);
+            \draw[draw=thyWhite, fill=thyFirst,thick, line width=6pt] 
+                (108:\innerCirc) -- (108:\outerCirc) arc (108:216:\outerCirc) -- (216:\innerCirc) arc (216:108:\innerCirc);
+            \draw[draw=thyWhite, fill=thySecond,thick, line width=6pt] 
+                (216:\innerCirc) -- (216:\outerCirc) arc (216:360:\outerCirc) -- (360:\innerCirc) arc (360:216:\innerCirc);    
 
-
-
-
-
-
-
-
-
-
-    \newcounter{a}
-    \newcounter{b}
-    \newcounter{c}
-    % draw a slice for a chart
-    % param 1: Circle form - 90 = quarter, 180 = half, 360 = full
-    % param 2: scale default=1 (scales only chart, not label text)
-    % param 3: border color
-    % param 4: label text color
-    % param 5: label bg color
-    % param 6:
-    \newenvironment{piechart}[5] {
-
-        % draw a slice for a chart
-        % param 1: value x of 100
-        % param 2: label text
-        % param 3: fill color
-        % param 4:
-        % param 5:
-        % param 6:
-        \newcommand{\slice}[3] {
-
-            \setcounter{a}{\value{b}}
-            \addtocounter{b}{##1}
-
-            %set from angle point
-            \pgfmathparse{\thea/100*#1}
-            \let\pointa\pgfmathresult
-
-            %set toanglepoint
-            \pgfmathparse{\theb/100*#1}
-            \let\pointb\pgfmathresult
-
-            %set midangle
-            \pgfmathparse{0.5*\pointa+0.5*\pointb}
-            \let\midangle\pgfmathresult
-            
-            % draw the slice
-            \filldraw[fill=##3,draw=#3, line width=5pt] (0,0) -- (\pointa:#2) arc (\pointa:\pointb:#2) -- cycle;
-
-            % draw label
-            \node[label=\midangle:\colorbox{#5}{\textcolor{#4}{##2}}] at (\midangle:#2) {};
-
-            \filldraw[fill=#3,draw=none] (0,0) circle (#2/2);
-        }
-
-        % execute commands
-        \setcounter{a}{0}
-        \setcounter{b}{0}
-
-        \begin{tikzpicture}
-        }{
-            \end{tikzpicture}
-        }
-
-
-
-
-
-    \newcommand{\cvskill}[2]{%
-    \textcolor{black}{\textbf{#1}}\hfill
-    \foreach \x in {1,...,5}{%
-      \space{\ifnumgreater{\x}{#2}{\color{body!30}}{\color{accent}}\faCircle}}\par%
+            \draw[decoration={
+                text format delimiters={[}{]},
+                text color=thyWhite,
+                text along path,
+                text={[\footnotesize\tt\bfseries]Design},
+                text align={center},
+                raise=-0.5cm,
+                reverse path},
+                decorate] (0:\outerCirc) arc (0:36:\outerCirc);
+            \draw[decoration={
+                text format delimiters={[}{]},
+                text color=thyWhite,
+                text along path,
+                text={[\footnotesize\tt\bfseries]Implementation},
+                text align={center},
+                raise=-0.5cm,
+                reverse path},
+                decorate] (36:\outerCirc) arc (36:108:\outerCirc);          
+            \draw[decoration={
+                text format delimiters={[}{]},
+                text color=thyWhite,
+                text along path,
+                text={[\footnotesize\tt\bfseries]Research},
+                text align={center},
+                raise=-0.5cm,
+                reverse path},
+                decorate] (108:\outerCirc) arc (108:216:\outerCirc); 
+            \draw[decoration={
+                text format delimiters={[}{]},
+                text color=thyWhite,
+                text along path,
+                text={[\footnotesize\tt\bfseries]Development},
+                text align={center},
+                raise=0.3cm},
+                decorate] (216:\outerCirc) arc (216:360:\outerCirc); 
+        \end{tikzpicture}
     }
-    \def\Cplusplus{C\raisebox{0.5ex}{\tiny\textbf{++}}}
-    \newcommand\scalemath[2]{\scalebox{#1}{\mbox{\ensuremath{\displaystyle #2}}}}
-
-    \def\OneOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\circ}\mskip\medmuskip{\circ}\mskip\medmuskip{\circ}}$}
-    \def\TwoOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\circ}\mskip\medmuskip{\circ}}$}
-    \def\ThreeOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\circ}}$}
-    \def\FourOfFour{$\scalemath{1.5}{{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\bullet}\mskip\medmuskip{\bullet}}$}
-
 
