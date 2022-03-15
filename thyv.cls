@@ -90,9 +90,8 @@
     % 1 :: start year
     % 2 :: end year
     % 3 :: overall height
-    % 4 :: width of textboxes 
+    % 4 :: width of textboxes
     \newenvironment{thyV}[4]{
-        
         \def\textFormat{\setstretch{0.9}\footnotesize}
 
         % 1 :: start date
@@ -110,21 +109,21 @@
 
             \ifthenelse{\equal{##3}{}}{
                 \def\drawCol{thyFirst}
-                \def\catDistance{-0.25}            
+                \def\catDistance{0.3}
             }{
                 \def\drawCol{thySecond}
-                \def\catDistance{-0.65}
+                \def\catDistance{0.7}
             }
             \filldraw[fill=\drawCol, draw=none, opacity=1]
                 (\catDistance, \startX)
                     rectangle
-                (\catDistance-0.2,\endX);
+                (\catDistance+0.2,\endX);
         }
 
         % 1 :: date
         % 2 :: text
-        % 3 :: color   
-        % 4 :: grey text 
+        % 3 :: color
+        % 4 :: grey text
         \newcommand{\thyDrawEvent}[4]{
 
             \StrCut{##1}{/}{\monthf}{\yearf}
@@ -141,18 +140,18 @@
                 \def\distance{0}
             }{
                 \ifthenelse{\equal{##3}{thySecond}}{
-                    \def\distance{-0.65}
+                    \def\distance{0.8}
                 }{
-                    \def\distance{-0.25}
+                    \def\distance{0.4}
                 }
             }
 
-            \draw[draw=##3, line width=1.5pt] (0, \startX) -- (0.5,\startX);
+            \draw[draw=##3, line width=1.5pt] (\distance, \startX) -- (1.3,\startX);
 
             \node[label={
                 [label distance=-10]0:\colorbox{##3}{\textFormat\strut}
                 \parbox{#4}{\textFormat\boxContent}
-            }] at (0.5, \startX) {};
+            }] at (1.3, \startX) {};
         }
 
         % 1 :: name of event
@@ -220,24 +219,24 @@
             \let\enddate\pgfmathresult
 
             % main timeline
-            \draw[draw=thyBlack, line width=2pt] (0,0.25*\yearlength) -- (0,\todayX);
+            \draw[draw=thyBlack, line width=2pt] (0,0.1*\yearlength) -- (0,\todayX);
             \draw[draw=thyBlack, dashed, line width=2pt] (0,\todayX) -- (0,#3-0.25*\yearlength);
 
             % big start and end indicator
-            \draw[draw=thyBlack, line width=2pt] (0,0.25*\yearlength) -- (-1,0.25*\yearlength);
-            \draw[draw=thyBlack, dashed, line width=2pt] (0,#3-0.25*\yearlength) -- (-1,#3-0.25*\yearlength);
+            \draw[draw=thyBlack, line width=2pt] (0,0.1*\yearlength) -- (1,0.1*\yearlength);
+            \draw[draw=thyBlack, dashed, line width=2pt] (0,#3-0.25*\yearlength) -- (1,#3-0.25*\yearlength);
 
             % small new-year indicators
             \whiledo{\value{yearcount} < \fullrange}{
-                \draw[draw=thyBlack, line width=1pt] 
-                    (0,\yearlength*\value{yearcount}) -- 
+                \draw[draw=thyBlack, line width=1pt]
+                    (0,\yearlength*\value{yearcount}) --
                     (0.2,\yearlength*\value{yearcount});
                 \stepcounter{yearcount}
             }
 
             % year text
-            \node[label=\textcolor{thyBlack}{\textbf{#1}}] at (-0.6,0.25*\yearlength-0.1) {};
-            \node[label=\textcolor{thyBlack}{\textbf{\enddate}}] at (-0.6,#3-0.75*\yearlength) {};
+            \node[label=\textcolor{thyBlack}{\textbf{#1}}] at (0.6,0.05*\yearlength) {};
+            \node[label=\textcolor{thyBlack}{\textbf{\enddate}}] at (0.6,#3-0.75*\yearlength) {};
     }{
         \end{tikzpicture}
     }

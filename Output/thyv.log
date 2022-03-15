@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.6)  2 MAR 2022 02:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.6)  15 MAR 2022 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -927,16 +927,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 25.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 25.
-
-Overfull \hbox (1.08688pt too wide) in paragraph at lines 40--41
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-
- []
-
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
 nput line 45.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
@@ -1009,10 +999,10 @@ Package rerunfilecheck Info: File `thyv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24380 strings out of 481199
- 504299 string characters out of 5913480
- 837093 words of memory out of 5000000
- 40847 multiletter control sequences out of 15000+600000
+ 24379 strings out of 481199
+ 504284 string characters out of 5913480
+ 836101 words of memory out of 5000000
+ 40846 multiletter control sequences out of 15000+600000
  449724 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,9n,130p,477b,1215s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1027,8 +1017,8 @@ pe1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on /home/thyriaen/Sveti/thyVitae/Output/thyv.pdf (1 page, 204287
-2 bytes).
+Output written on /home/thyriaen/Sveti/thyVitae/Output/thyv.pdf (1 page, 204314
+1 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
