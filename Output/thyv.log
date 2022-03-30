@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.6)  30 MAR 2022 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.6)  30 MAR 2022 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,7 +1001,7 @@ Package rerunfilecheck Info: File `thyv.out' has not changed.
 Here is how much of TeX's memory you used:
  24379 strings out of 481199
  504340 string characters out of 5913480
- 836885 words of memory out of 5000000
+ 835886 words of memory out of 5000000
  40846 multiletter control sequences out of 15000+600000
  449724 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1018,7 +1018,7 @@ r/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmtt10.pfb>
 Output written on /home/thyriaen/Workspace/thyVitae/Output/thyv.pdf (1 page, 20
-43128 bytes).
+43130 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
