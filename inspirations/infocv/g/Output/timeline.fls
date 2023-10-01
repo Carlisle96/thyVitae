@@ -1,7 +1,0 @@
-PWD /home/thyriaen/Documents/cv/g
-INPUT /etc/texmf/web2c/texmf.cnf
-INPUT /usr/share/texmf/web2c/texmf.cnf
-INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/thyriaen/Documents/cv/g/timeline.tex
-OUTPUT /home/thyriaen/Documents/cv/g/Output/timeline.log
